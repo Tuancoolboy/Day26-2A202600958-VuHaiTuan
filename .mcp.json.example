@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "sqlite-lab": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["/ABSOLUTE/PATH/TO/Day26-2A202600958-VuHaiTuan/implementation/mcp_server.py"],
+      "env": {
+        "DB_BACKEND": "sqlite",
+        "SQLITE_DB_PATH": "/ABSOLUTE/PATH/TO/Day26-2A202600958-VuHaiTuan/implementation/data/school.db"
+      }
+    }
+  }
+}
